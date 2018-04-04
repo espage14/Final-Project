@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="600dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/battlestage"
+    android:layout_gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout3">
+
+        <fragment
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/battle_menu_layout"
+            android:id="@+id/battlebuttons"
+            class="com.example.cwpila14.finalproject.Battle.BattleButtonsFragment"
+            android:visibility="visible"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+        </fragment>
+
+        <fragment
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_moves"
+            android:id="@+id/moves_fragment"
+            android:layout_marginBottom="38dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            class="com.example.cwpila14.finalproject.Battle.MovesFragment"
+            android:visibility="gone"
+            android:layout_below="@+id/battlebuttons"
+            >
+
+        </fragment>
+
+    </LinearLayout>
+
+    <fragment
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        tools:layout='@layout/pokemon'
+        android:layout_marginRight="54dp"
+        android:id="@+id/playerImage"
+        class="com.example.cwpila14.finalproject.Battle.PlayerPokemonFragment"
+
+        android:layout_alignTop="@+id/playerInfo"
+        android:layout_alignStart="@+id/battlebuttons"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="47dp">
+
+    </fragment>
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout='@layout/pokemon'
+        android:layout_marginLeft="47dp"
+        android:id="@+id/opponentImage"
+        class="com.example.cwpila14.finalproject.Battle.OpponentPokemonFragment"
+
+        android:layout_marginTop="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/linearLayout3"
+        android:layout_marginEnd="37dp">
+
+    </fragment>
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/player_bio_battle"
+        android:layout_marginRight="38dp"
+        android:id="@+id/playerInfo"
+        class="com.example.cwpila14.finalproject.Battle.PlayerInfoFragment"
+        android:layout_weight="1"
+        android:layout_alignTop="@+id/opponentImage"
+        android:layout_alignStart="@+id/playerImage"
+        android:layout_marginTop="72dp">
+
+    </fragment>
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/opponent_bio_fragment"
+        android:layout_marginLeft="46dp"
+        android:id="@+id/opponentInfo"
+        class="com.example.cwpila14.finalproject.Battle.OpponentInfoFragment"
+        android:layout_marginBottom="14dp"
+        android:layout_above="@+id/linearLayout3"
+        android:layout_alignStart="@+id/opponentImage"
+        android:layout_marginStart="11dp">
+
+    </fragment>
+
+
+</RelativeLayout>

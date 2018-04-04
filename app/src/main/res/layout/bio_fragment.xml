@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <TextView
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textStyle="bold"
+        android:text="Are you a boy or a girl?"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/checkmark1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/checkmark"
+            />
+
+        <ImageButton
+            android:id="@+id/boy"
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:background="@drawable/ash"
+            android:padding="20dp"
+            />
+
+        <ImageButton
+            android:id="@+id/girl"
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:background="@drawable/girl"
+            android:padding="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/checkmark2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/checkmark"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/what_is_your_name"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/playerName"
+        android:layout_width="400dp"
+        android:layout_height="35dp"
+        android:background="#FFFFFF"
+        android:hint="@string/please_enter_a_player_name"
+        android:textAlignment="center"
+        android:singleLine="true"
+        />
+
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="@string/continueToGame"
+        style="@style/ButtonStyle"
+        android:layout_marginTop="20dp"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/settingsMenu"
+        android:title="@string/Game_settings"
+        android:showAsAction="ifRoom"/>
+    <item android:id="@+id/helpMenu"
+        android:icon="@drawable/icon"
+        android:title="Help" />
+    <item android:id="@+id/toggleMusic"
+        android:icon="@drawable/icon"
+        android:title="Music On/Off" />
+</menu>

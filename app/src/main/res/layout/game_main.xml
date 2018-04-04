@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yellowback">
+
+    <fragment
+        android:id="@+id/grid_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        class="com.example.cwpila14.finalproject.GameStuff.Grid"
+        tools:layout="@layout/fragment_grid"/>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        tools:layout="@layout/menu_bar_fragment"
+        android:id="@+id/menuBarFragment"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        class="com.example.cwpila14.finalproject.GameStuff.MenuBarFragment">
+    </fragment>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout">
+
+    <fragment
+        android:id="@+id/elitefourFragment"
+        android:layout_marginRight="15dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        tools:layout="@layout/elitefour_fragment"
+        class="com.example.cwpila14.finalproject.GameStuff.InGameEliteFourBattleFragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/pokecenterFragment"
+        android:layout_marginRight="15dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        tools:layout="@layout/pokecenter_fragment"
+        class="com.example.cwpila14.finalproject.GameStuff.InGamePokecenterFragment"
+        >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/pokedexFragment"
+        android:layout_marginRight="15dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        tools:layout="@layout/pokedex_fragment"
+        class="com.example.cwpila14.finalproject.GameStuff.InGamePokedexFragment"
+        >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/bagFragment"
+        android:layout_marginRight="15dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        tools:layout="@layout/bag_fragment"
+        class="com.example.cwpila14.finalproject.GameStuff.InGameBagFragment"
+        >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:layout_marginRight="15dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        tools:layout="@layout/settings_fragment"
+        class="com.example.cwpila14.finalproject.GameStuff.InGameSettingsFragment"
+        >
+
+    </fragment>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="@drawable/ash"
+        android:id="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/menuBarFragment"
+        android:layout_below="@+id/grid_fragment" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Player Name"
+        android:textSize="30dp"
+        android:id="@+id/textView3"
+        android:layout_marginBottom="43dp"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_toStartOf="@+id/imageView2" />
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="@drawable/questionmark"
+        android:id="@+id/imageView3"
+        android:layout_marginEnd="49dp"
+        android:layout_below="@+id/grid_fragment"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="11dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="About">Welcome to the world of Pokemon! In this game,
+    you have to find and battle wild Pokemon in order to train your own Pokemon that you
+    catch along the way. Walk with your device and see your character move in real time! Train your pokemon
+    to be strong enough to battle the Elite 4 in order to win the game! Best of luck to you Pokemon trainer!</string>
+    <string name="ok_label">OK</string>
+    <string name="tutorial_label">Tutorial</string>
+    <string name="fire_pokemon">You have chosen Charmander! Charmander is the fire type pokemon.</string>
+    <string name="water_pokemon">You have chosen Squirtle! Squirtle is the water type pokemon.</string>
+    <string name="grass_pokemon">You have chosen Bulbasaur! Bulbasaur is the grass type pokemon.</string>
+    <string name="choose_label">Choose</string>
+    <string name="cancel_label">Cancel</string>
+    <string name="quit_game">Quit Game</string>
+    <string name="quit_game_label">Would you like to quit the game?</string>
+    <string name="pokecenter">PokeCenter</string>
+    <string name="pokecenter_label">Thank you for visiting the PokeCenter! Your Pokemon
+    have been restored to full health. We hope to see you again!</string>
+    <string name="thankyou">Thank You</string>
+    <string name="EliteFour">Elite 4</string>
+    <string name="masterball">Masterball</string>
+    <string name="potion">Potion</string>
+
+
+    <string name="Bag">Bag</string>
+    <string name="Elite">Elite</string>
+    <string name="Pokedex">Pokedex</string>
+    <string name="Settings">Settings</string>
+    <string name="Pokecenter">PokeCenter</string>
+    <string name="Map">Map</string>
+    <string name="Buttons">Buttons</string>
+    <string name="permission_resource">android.permission.ACCESS_FINE_LOCATION</string>
+    <string name="tutSettings">This button lets you adjust your settings and quit the game</string>
+    <string name="tutPotion">If your Pokemon are running low in battle, use a potion to fully heal them</string>
+    <string name="tutPokedex">This button lets you access your own Pokemon and the Pokemon database</string>
+    <string name="tutPokecenter">This button lets you restore your Pokemon to full health</string>
+    <string name="tutMap">Walk with your device in real time to move your player accross the map. Move forward, backward, and to the side.</string>
+    <string name="tutElite4">Test your strength and battle the Elite 4 to become a Pokemon master!</string>
+    <string name="tutElite">This button lets you challenge the Elite 4</string>
+    <string name="tutButtons">The game features a variety of buttons</string>
+    <string name="tutBag">This button gives you access to your items</string>
+    <string name="agathaText">My name is Agatha. Dont cry when I beat you!</string>
+    <string name="brunoText">My name is Bruno. Are you ready to lose?</string>
+    <string name="lanceText">My name is Lance. Watch me crush you!</string>
+    <string name="loreleiText">My name is Lorelei. You stand no match for me!</string>
+    <string name="choosePokemon">Choose A Starter Pokemon!</string>
+    <string name="leave_tutorial">Leave Tutorial</string>
+    <string name="your_pokemon">Your Pokemon</string>
+    <string name="pokemon_information">Pokemon Information</string>
+    <string name="credit">Game created by Cameron Pilarski and Evan Page: CS4001</string>
+    <string name="bag">Bag</string>
+    <string name="amount">10</string>
+    <string name="fight">Fight</string>
+    <string name="bag2">Bag</string>
+    <string name="pokemon">Pokemon</string>
+    <string name="run_away">Run Away</string>
+    <string name="what_is_your_name">What is your name?</string>
+    <string name="please_enter_a_player_name">Please enter a player name: (1-14 chars)</string>
+    <string name="continueToGame">Continue</string>
+    <string name="start">Start</string>
+    <string name="about">About</string>
+    <string name="move_1">Move 1</string>
+    <string name="move_3">Move 3</string>
+    <string name="move_2">Move 2</string>
+    <string name="move_4">Move 4</string>
+    <string name="pokemon2">Pokemon</string>
+    <string name="level">Level</string>
+    <string name="hp">HP: 0/0</string>
+    <string name="eliteMessage">Are you sure you would like to battle the Elite 4? If you are defeated, you will be forced to restart the game.</string>
+    <string name="EliteTitle">Battle the Elite 4!</string>
+    <string name="Challenge">Challenge</string>
+    <string name="PotionText">You cannot use this here. If you need to heal your Pokemon, please visit the PokeCenter on the homecreen.</string>
+    <string name="potionName">Potion</string>
+    <string name="Game_settings">Game Settings</string>
+    <string name="Info">Walk around with your device to move your player. Be careful, you may encounter wild Pokemon. Battle other Pokemon to level up your very own Pokemon</string>
+    <string name="help">Help</string>
+    <string name="move_4_text">Move 4</string>
+    <string name="move_2_text">Move 2</string>
+    <string name="move_3_text">Move 3</string>
+    <string name="move_1_text">Move 1</string>
+    <string name="potion_heal">You have healed your pokemon to full health!</string>
+    <string name="heal">Heal your Pokemon</string>
+    <string name="loser_message">You Lost to the Elite 4. Thank you for playing. Signed - Evan and Cameron</string>
+    <string name="you_lose">You Lose!</string>
+    <string name="home">Home</string>
+    <string name="winner_message">You have successfully beaten the Elite 4! You are now a Pokemon Master! Thank you for playing, we hope you enjoyed your experience. Signed - Cameron and Evan</string>
+    <string name="exit">Exit</string>
+    <string name="congratulations">Congratulations!</string>
+
+
+</resources>

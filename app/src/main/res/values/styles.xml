@@ -1,0 +1,96 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Fade">
+        <item name="android:windowEnterAnimation">@anim/fadein</item>
+        <item name="android:windowExitAnimation">@anim/fadeout</item>
+    </style>
+
+    <style name="Explode">
+        <item name="android:windowEnterAnimation">@anim/fadein</item>
+        <item name="android:windowExitAnimation">@anim/fadeout</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:background">@drawable/button_rounded</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:shadowColor">#A8A8A8</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:radius">100dp</item>
+        <item name="android:gradientRadius">100dp</item>
+
+
+    </style>
+
+    <!-- Temp style for testing TODO remove this once done-->
+    <style name="TextView"><item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">0</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+
+
+    <!-- Style for the tiles-->
+    <!-- 34.8, 32-->
+    <style name="Tiles">
+        <item name="android:layout_width">54dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:background">@drawable/grass</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="TutText">
+        <item name="android:layout_width">500dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="EliteText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">40dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="EliteBattleButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#000000</item>
+        <item name="android:textSize">40dp</item>
+        <item name="android:text">Battle!</item>
+
+    </style>
+
+    <style name="MenuIcons">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <style name="Icons">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+
+
+
+</resources>

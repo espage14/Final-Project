@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/starbackground"
+    android:gravity="center_horizontal">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+        <fragment
+            android:id="@+id/bio_stuff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/bio_fragment"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            class="com.example.cwpila14.finalproject.BioStuff.BioFragment"
+            >
+
+        </fragment>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

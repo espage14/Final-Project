@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <ImageButton
+        android:id="@+id/EliteBattle"
+        android:background="@drawable/pokeballicon"
+        style="@style/MenuIcons"
+        />
+
+    <ImageButton
+        android:id="@+id/PokeCenter"
+        android:background="@drawable/pokecenter"
+        style="@style/MenuIcons"
+        />
+
+    <ImageButton
+        android:id="@+id/YourPokemon"
+        android:background="@drawable/pokedex"
+        style="@style/MenuIcons"
+        />
+
+
+    <ImageButton
+        android:id="@+id/YourItems"
+        android:background="@drawable/bag"
+        style="@style/MenuIcons"
+        />
+
+    <ImageButton
+        android:id="@+id/Settings"
+        android:background="@drawable/settings"
+        style="@style/MenuIcons"
+        />
+
+</LinearLayout>

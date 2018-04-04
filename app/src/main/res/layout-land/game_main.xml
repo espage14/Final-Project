@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        tools:layout="@layout/vertical_menu_bar_fragment"
+        android:id="@+id/fragment"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        class="com.example.cwpila14.finalproject.GameStuff.VerticalMenuBarFragment">
+    </fragment>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/fragment"
+        android:layout_alignStart="@+id/fragment">
+
+        <fragment
+            android:id="@+id/elitefourFragment"
+            android:layout_marginBottom="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            tools:layout="@layout/elitefour_fragment"
+            class="com.example.cwpila14.finalproject.GameStuff.InGameEliteFourBattleFragment">
+
+        </fragment>
+
+        <fragment
+            android:id="@+id/pokecenterFragment"
+            android:layout_marginBottom="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            tools:layout="@layout/pokecenter_fragment"
+            class="com.example.cwpila14.finalproject.GameStuff.InGamePokecenterFragment"
+            >
+
+        </fragment>
+
+        <fragment
+            android:id="@+id/pokedexFragment"
+            android:layout_marginBottom="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            tools:layout="@layout/pokedex_fragment"
+            class="com.example.cwpila14.finalproject.GameStuff.InGamePokedexFragment"
+            >
+
+        </fragment>
+
+        <fragment
+            android:id="@+id/bagFragment"
+            android:layout_marginBottom="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            tools:layout="@layout/bag_fragment"
+            class="com.example.cwpila14.finalproject.GameStuff.InGameBagFragment"
+            >
+
+        </fragment>
+
+        <fragment
+            android:id="@+id/settingsFragment"
+            android:layout_marginBottom="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            tools:layout="@layout/settings_fragment"
+            class="com.example.cwpila14.finalproject.GameStuff.InGameSettingsFragment"
+            >
+
+        </fragment>
+
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/grid_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.example.cwpila14.finalproject.GameStuff.Grid"
+        tools:layout="@layout/fragment_grid"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/fragment"
+        android:layout_marginEnd="128dp" />
+
+
+</RelativeLayout>

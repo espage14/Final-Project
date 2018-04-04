@@ -1,0 +1,460 @@
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:rowCount="10"
+    android:columnCount="11"
+    android:background="@drawable/route"
+
+    >
+
+    <ImageView
+        android:id="@+id/Tile0"
+        style="@style/Tiles"
+        />
+
+    <ImageView
+        android:id="@+id/Tile1"
+        style="@style/Tiles" />
+
+    <ImageButton
+        android:id="@+id/Tile2"
+        style="@style/Tiles" />
+
+    <ImageView
+        android:id="@+id/Tile3"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile4"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile5"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile6"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile7"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile8"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile9"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile10"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile11"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile12"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile13"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile14"
+        style="@style/Tiles"/>
+    <ImageView
+        android:id="@+id/Tile15"
+        style="@style/Tiles" />
+
+    <ImageView
+        android:id="@+id/Tile16"
+        style="@style/Tiles" />
+
+    <ImageView
+        android:id="@+id/Tile17"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile18"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile19"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile20"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile21"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile22"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile23"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile24"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile25"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile26"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile27"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile28"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile29"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile30"
+        style="@style/Tiles" />
+
+    <ImageView
+        android:id="@+id/Tile31"
+        style="@style/Tiles" />
+
+    <ImageView
+        android:id="@+id/Tile32"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile33"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile34"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile35"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile36"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile37"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile38"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile39"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile40"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile41"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile42"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile43"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile44"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile45"
+        style="@style/Tiles" />
+
+    <ImageView
+        android:id="@+id/Tile46"
+        style="@style/Tiles" />
+
+    <ImageView
+        android:id="@+id/Tile47"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile48"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile49"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile50"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile51"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile52"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile53"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile54"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile55"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile56"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile57"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile58"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile59"
+        style="@style/Tiles"
+        android:background="@drawable/playermodel_guy" />
+
+    <ImageView
+        android:id="@+id/Tile60"
+        style="@style/Tiles" />
+
+    <ImageView
+        android:id="@+id/Tile61"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile62"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile63"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile64"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile65"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile66"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile67"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile68"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile69"
+        style="@style/Tiles"
+        android:layout_width="36dp" />
+
+    <ImageView
+        android:id="@+id/Tile70"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile71"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile72"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile73"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile74"
+        style="@style/Tiles" />
+
+    <ImageView
+        android:id="@+id/Tile75"
+        style="@style/Tiles" />
+
+    <ImageView
+        android:id="@+id/Tile76"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile77"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile78"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile79"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile80"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile81"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile82"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile83"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile84"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile85"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile86"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile87"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile88"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile89"
+        style="@style/Tiles" />
+
+    <ImageView
+        android:id="@+id/Tile90"
+        style="@style/Tiles" />
+
+    <ImageView
+        android:id="@+id/Tile91"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile92"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile93"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile94"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile95"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile96"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile97"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile98"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile99"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile100"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile101"
+        style="@style/Tiles"
+        />
+
+    <ImageView
+        android:id="@+id/Tile102"
+        style="@style/Tiles" />
+
+    <ImageView
+        android:id="@+id/Tile103"
+        style="@style/Tiles" />
+
+    <ImageView
+        android:id="@+id/Tile104"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile105"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile106"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile107"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile108"
+        style="@style/Tiles"/>
+
+    <ImageView
+        android:id="@+id/Tile109"
+        style="@style/Tiles"/>
+
+
+
+
+</GridLayout>
